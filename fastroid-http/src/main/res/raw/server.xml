@@ -1,0 +1,53 @@
+<server>
+
+    <!-- =================================================================================== -->
+    <!-- contexts 包含了各个服务端的配置                                                         -->
+    <!-- context 服务端环境配置           													     -->
+    <!--    id 环境id                    													 -->
+    <!--    extends 复用环境配置，如果当前context又配置了同名字段则覆盖父类字段 					     -->
+    <!--    method 请求方式 post get put delete等选项，默认post 								 -->
+    <!--    action-key 如果服务端api需要一个参数来标记是什么api请求动作，这个参数就有actionKey配置      -->
+    <!--    host 服务端api url , 如果服务端每个api地址不一样就有req对象的注解配置uri                  -->
+    <!--    context 节点下 id 和 extends 属性是关键字 ， 它的子节点自由配置，并对应一个对象            -->
+    <!--               传给 ServerLoader.getServerConfig 进行解析                              -->
+    <!-- =================================================================================== -->
+
+    <scheme>
+        <context-id>rc</context-id>
+    </scheme>
+
+    <contexts>
+
+        <context id="default_context">
+            <method>post</method>
+            <action_key>method</action_key>
+            <app_key>11111111</app_key>
+            <app_secret>11111111111111111111111111111111</app_secret>
+        </context>
+
+        <context id="test_context" extends="default_context">
+        </context>
+
+        <context id="rc" extends="test_context">
+            <host>http://ydzw.sheitc.gov.cn/</host>
+            <web_host>http://ydzw.sheitc.gov.cn</web_host>
+        </context>
+
+        <context id="dev" extends="test_context">
+            <host>http://ydzw.kaiwangpu.com/</host>
+            <web_host>http://ydzw.kaiwangpu.com</web_host>
+        </context>
+
+    </contexts>
+
+    <!--
+        name  : 接口名
+        method: 接口请求方式 get 或 post
+        URI   : 接口定位符
+        header: (可选) 可以为该接口添加额外header (App先会根据业务得到每个接口需要的header , 如果有额外header需要添加，可以填上)
+        cover_host : (可选) 如果该接口不走 <host> ，可以用此节点覆盖。
+        manual_process_error: (可选) 是否手动处理相应json中的err_code，默认为false ， BaseApi中会自动去处理请求中的err_desc ， 特殊需要手动处理的err_desc才设置为true
+     -->
+    <!-- =========================物流请求========================== -->
+
+</server>

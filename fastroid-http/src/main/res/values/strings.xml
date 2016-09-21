@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">APICore</string>
+    <string name="server_not_reached">服务器无响应</string>
+    <string name="network_unavailable">无网络连接</string>
+</resources>

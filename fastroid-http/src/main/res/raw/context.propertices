@@ -1,0 +1,25 @@
+###############################
+#                             #
+#          环境配置文件         #
+#                             #
+###############################
+
+environment=test
+
+requestMethod=POST
+
+[release]
+host=http://47.88.148.212
+api_host=http://47.88.148.212
+
+[rc]
+host=http://47.88.148.212
+api_host=http://47.88.148.212
+
+[test]
+host=http://hhds.dev.kaiwangpu.com/
+api_host=http://api.hhds.dev.kaiwangpu.com
+
+[local]
+host=http://192.168.0.136
+api_host=http://47.88.148.212
