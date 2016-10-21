@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HWFramework.iml" filepath="$PROJECT_DIR$/HWFramework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fastroid-http/fastroid-http.iml" filepath="$PROJECT_DIR$/fastroid-http/fastroid-http.iml" />
+      <module fileurl="file://$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/Fastroid-http.iml" filepath="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/Fastroid-http.iml" />
+      <module fileurl="file://$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/main/Fastroid-http-Fastroid-http.iml" filepath="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/main/Fastroid-http-Fastroid-http.iml" />
     </modules>
   </component>
 </project>

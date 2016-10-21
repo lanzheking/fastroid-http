@@ -6,3 +6,11 @@
 .DS_Store
 /build
 /captures
+/fastroid-http/build/
+/fastroid-http/fastroid-http.iml
+/.directory
+/Fastroid-http.iml
+/gradlew
+/gradlew.bat
+/HWFramework.iml
+/.gradle/
