@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/Fastroid-http.iml" filepath="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/Fastroid-http.iml" />
       <module fileurl="file://$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/main/Fastroid-http-Fastroid-http.iml" filepath="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/main/Fastroid-http-Fastroid-http.iml" />
+      <module fileurl="file://$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/main/main.iml" filepath="$USER_HOME$/mnt/dev/honestwalker/KancartAndroid/honestwalker_projects/Fastroid/Fastroid-http/main/main.iml" />
     </modules>
   </component>
 </project>
